@@ -99,6 +99,10 @@ header .icons #menu-bars{
     header{
         padding: 1rem 2rem;
     }
+    section{
+        padding: 2rem;
+    }
+    
 }
 
 
@@ -131,8 +135,20 @@ header .navbar a{
     width: 90%;
     margin: 0 1rem;
 }
+.home .home-slider .slide .content h3{
+    font-size: 5rem;
+}
+.home .home-slider .slide .content h3{
+    
+    font-size: 5rem;
+}
 
+}
 
+@media (max-width:991px){
+    html{
+        font-size: 50%;
+    }
 }
 
 #search-form{
@@ -210,7 +226,7 @@ section{
 }
 
 .home .home-slider .slide .image img{
-    width: 70%;
+    width: 100%;
 }
 
 .home .home-slider .slide .content span{
@@ -225,11 +241,24 @@ section{
 }
 
 .home .home-slider .slide .content p{
-    color: var(--light-color);
+    color: var(--green);
     font-size: 2.2rem;
     padding: 5rem 0;
     line-height: 1.5;
     
+}
+.sub-heading{
+    text-align: center;
+    color: var(--green);
+    font-size: 2rerm;
+    padding-top: 1rem;
+}
+.heading{
+    text-align: center;
+    color: var(--black);
+    font-size: 3rerm;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
 }
 
 .btn{
@@ -240,9 +269,30 @@ section{
     background: var(--black);
     border-radius: .5rem;
     cursor: pointer;
-    padding: 3rem 3rem;
+    padding: 1.5rem 3rem;
 }
 .btn:hover{
     background: var(--green);
     letter-spacing: .1rem;
+}
+.swiper-pagination-bullet-active{
+    background: var(--green);
+}
+
+.dishes .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
+    gap: 1.5rem;
+}
+
+.dishes .box-container .box{
+    padding: 2.5rem;
+    background: #fff;
+    border-radius: 5rem;
+    border: .1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    
 }
