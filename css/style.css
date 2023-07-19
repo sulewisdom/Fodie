@@ -285,20 +285,12 @@ section{
 }
 
 .dishes .box-container{
-    {
+    
     display: grid;  
     grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
     gap: .5rem;
 
-
-/*Added media query*/
-    @media (max-width:991px){
-        html{
-            font-size: 50%;
-        }
-    }
     
-}
 }
 
 .dishes .box-container .box{
@@ -379,4 +371,12 @@ section{
         font-weight: bolder;
         margin-right: 1rem;
         font-size: 2.5rem;
+     }
+/*Added style customs*/
+     .box-container{
+        margin: 0 auto;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        
      }
