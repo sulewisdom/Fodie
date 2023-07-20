@@ -435,7 +435,7 @@ section{
         color: var(--light-color);
         font-size: 4rem;
         padding: .5rem 0;
-        line-height: 2;
+        line-height: 2.1;
     }
 
     .row .content .icons-container{
